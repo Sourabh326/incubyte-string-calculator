@@ -24,4 +24,34 @@
   color: #333;
 }
 
+.calculator input {
+  width: calc(100% - 20px);
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  font-size: 16px;
+}
 
+.calculator button {
+  background: #4caf50;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background 0.3s ease;
+}
+
+.calculator button:hover {
+  background: #45a049;
+}
+
+.calculator p {
+  font-size: 16px;
+}
+
+.calculator p.error {
+  color: #e74c3c;
+}
